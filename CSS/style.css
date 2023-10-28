@@ -22,6 +22,25 @@ img{
     width:100%;
     height:auto;
 }
+.btn{
+    cursor:pointer;
+    border:none;
+    padding:var(--padding);
+    transition:var(--transition);
+    text-transform:uppercase;
+
+}
+.btn:hover{
+    background-color:wheat;
+}
+.btn-subscriber{
+    margin-left:-5px;
+}
+.footer-input{
+    padding:var(--padding);
+    border:none;
+    width:20rem;
+}
 .flex-space-arround{
     display:flex;
     justify-content:space-around;
@@ -82,4 +101,12 @@ nav{
         gap:1rem;
         padding:1rem 0px;
     } 
+}
+
+/*footer starts*/
+footer{
+    background-color:var(--primary-color);
+    min-height:10vh;
+    color:wheat;
+    font-size:1.1rem;
 }
