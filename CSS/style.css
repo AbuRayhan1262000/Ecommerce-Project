@@ -48,6 +48,9 @@ img{
 }
 /*common CSS ends*/
 /*navbar starts*/
+#menu-icon{
+    display:none;
+}
 nav{
     font-family: sans-serif;
     position:sticky;
@@ -101,6 +104,15 @@ nav{
         gap:1rem;
         padding:1rem 0px;
     } 
+    #menu-icon{
+        display:block;
+        text-align:center;
+        margin:1rem 0;
+        cursor:pointer;
+    }
+    .hidden{
+        display:none;
+    }
 }
 
 /*footer starts*/
