@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="This is an Ecommerce Website for marketing Rayhan Express"/>
+    <title>Ecommerce Website</title>
+  
+    <!--font awsome cdn-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"rel="stylesheet">
+    <link href="../CSS/style.css"rel="stylesheet">
+   
+</head>
+<body>
+    <!--navbar starts--->
+    <i class="fas fa-bars fa-2x"id="menu-icon"></i>
+    <nav id="menu"class="hidden">
+     <ul class="upper-Navbar flex-space-arround">
+        <li class="navbar-List">
+            <a href="../index.html"class="navbar-link">Home</a>
+        </li>
+
+        <li class="navbar-List">
+            <a href="Register.html"class="navbar-link">Register</a>
+        </li>
+
+        <li class="navbar-List">
+            <a href="Login.html"class="navbar-link">Login</a>
+        </li>
+
+        <li class="navbar-List">
+            <a href="Logout.html"class="navbar-link">Logout</a>
+        </li>
+
+        <li class="navbar-List">
+            <a href="Contact.html"class="navbar-link">Contact</a>
+        </li>
+
+        <li class="navbar-List">
+            <a href="profile.html"class="navbar-link">
+                <img class="profile-design" src="../Image/profile.jpg"alt="">
+            </a>
+        </li>
+     </ul>
+
+     <ul class="lower-navbar flex-space-arround">
+        <li class="navbar-list">
+            <a href="index.html"class="nav-brand navbar-link">Rayhan Express</a>
+        </li>
+
+        <li class="navbar-list">
+            <a href="index.html"class="navbar-link">
+                <span><i class="fa-solid fa-cart-shopping">Cart 2 product  100 . 50</i></span>
+            </a>
+        </li>
+     </ul>
+    </nav>
+    <!---navbar ends--->
+    <!--profile starts-->
+    <main>
+    <section class="profile">
+        <h2>User Profile</h2>
+        <div class="profile-card">
+            <img class="profile-pic"src="../Image/profile.jpg"alt="">
+         
+                <h2>Abu Rayhan</h2>
+                <br>
+                <p>rayhan15-4332@diu.edu.bd</p>
+                <br>
+                <p>I am passionate on technologies</p>
+           
+            <div class="profile__buttons">
+                <button class="btn profile__edit-btn">
+                  <i class="far fa-edit fa-2x"></i>
+                </button>
+                <button class="btn profile__delete-btn">
+                  <i class="far fa-trash-alt fa-2x"></i>
+                </button>
+              </div>
+        </div>
+
+    </section>
+    </main>
+    <!--profile ends--->
+
+   
+
+    <!--footer starts--->
+    <footer class="flex-space-arround">
+        <div>
+            <label for="subscribe">Subscribes to news letter : </label>
+            <input type="email"name="subscribe"class="footer-input"placeholder="Your Email Address : "/>
+            <button class="btn btn-subscriber">Subscribe</button>
+        </div>
+        <div>
+            <p>Copyright 2023 Rayhan Express.All rights reserved</p>
+        </div>
+    </footer>
+    <!--footer ends--->
+    <script src="../JS/index.js"></script>
+  
+    
+</body>
+</html>
