@@ -232,7 +232,75 @@ main{
     text-align:center;
   }
   /*contact section ends*/
+  /*Register section starts*/
+   h2{
+    margin-top:70px;
+    margin-bottom:20px;
+   }
+  .container-register{
+    height:320px;
+    width:600px;
+    background:whitesmoke;
+    text-align:center;
+    margin:auto;
+  }
+  .control-rg-section{
+    margin:20px 5px;
+  }
+  .control-rg-section .equal{
+    margin-left:22px;
+  }
+  .control-rg-section input{
+   height:35px;
+   width:500px;
+  }
+  textarea{
+    height:80px;
+    width:500px;
+    resize:none;
+  }
+  .control-rg-section label{
+    margin-right:5px;
+  }
+  .btn-submit{
+    width:200px;
+    height:30px;
+    margin-bottom:15px;
+    font-weight:bold;
+  }
+  .btn-submit:hover{
+   background:blue;
+  }
+  /*Register section ends*/
+  /*User Login section starts*/
+  .container-login{
+    width:600px;
+    height:150px;
+    background:whitesmoke;
+    padding:5px;
+    text-align:center;
+    margin:auto;
+  }
+  .control-login{
+    margin-bottom:15px;
+  }
+  .control-login input{
+    width:500px;
+    height:30px;
+  }
+  .input-equal{
+    margin-left:22px;
+  }
+  .submit-button{
+    width:200px;
+    height:30px;
+  }
+  .submit-button:hover{
+    background:blue;
+  }
 
+    /*User Login section ends*/
+  
 /*responsive navbar*/
 @media screen and (max-width:992px) {
     .flex-space-arround{
@@ -269,6 +337,9 @@ main{
     .container-address{
         width:auto;
         margin:auto;
+    }
+    .responsive{
+      height:65vh;
     }
 }
 /*footer starts*/
